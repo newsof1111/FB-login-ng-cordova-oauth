@@ -1,0 +1,27 @@
+<ion-view view-title="Home" >
+  <ion-content>
+         <div ng-if="!NoConnexion" class="profile-media">
+              <div class="profile-details">
+                <img  ng-src="{{vm.profileData.picture.data.url}}" class="img-circle profile-image">
+                <h4 >
+                  Welcome to joining us!
+                </h4>
+                <h1>
+                  {{vm.profileData.name}}
+                </h1>
+              </div>
+         </div>
+
+
+         <div ng-if="NoConnexion" class="profile-media">
+              <div class="profile-details">
+                <img  ng-src="img/NoConnexion.png" class="img-circle profile-image">
+                
+                <h1>
+                  No Internet Connexion 
+                </h1>
+              </div>
+         </div>
+
+  </ion-content>
+</ion-view>
