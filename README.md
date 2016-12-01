@@ -14,8 +14,10 @@ This Exemple Use ngCordovaOauth
 </ul>
 
 <h1>Screens</h1>
-  1)loginPage
-  2)homePage
+  <ul>
+    <li>1)loginPage</li>
+    <li> 2)homePage</li>
+  </ul>
   
 <h1>Configuration</h1>
 Download this example project from GitHub and run the following commands:
